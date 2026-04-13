@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manual Interno Bóris</title>
+    <meta
+      name="description"
+      content="Manual interno de onboarding da equipe do Bóris, com contexto, rotina real, frentes do time e trilha da primeira semana."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <a class="brand-lockup" href="#hub" aria-label="Ir para o início do manual">
+          <span class="brand-mark-shell">
+            <img src="./assets/logo-boris.png" alt="Logo Bóris" class="brand-mark" />
+          </span>
+          <div>
+            <p class="eyebrow">Equipe interna · Manual vivo</p>
+            <h1>Onboarding da equipe Bóris</h1>
+            <p class="header-meta">O que é o Bóris, momento atual, rotina real e primeiros 7 dias</p>
+          </div>
+        </a>
+
+        <div class="topbar-status">
+          <span class="status-chip">Uso interno</span>
+          <span class="status-chip status-chip-soft">Versão base</span>
+        </div>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav mobile-nav" id="site-nav" aria-label="Navegação principal" data-nav>
+          <a href="#hub">Hub</a>
+          <a href="#o-que-e">O que é</a>
+          <a href="#momento-atual">Momento atual</a>
+          <a href="#equipe-hoje">Equipe hoje</a>
+          <a href="#dia-a-dia">Dia a dia</a>
+          <a href="#modulos">Módulos</a>
+          <a href="#primeiros-passos">Primeiros passos</a>
+          <a href="#papeis">Papéis</a>
+          <a href="#ferramentas">Onde o trabalho acontece</a>
+          <a href="#rituais">Rituais</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </header>
+
+      <main class="app-shell">
+        <aside class="workspace-sidebar">
+          <div class="workspace-sidebar-inner">
+            <div class="workspace-section">
+              <p class="workspace-label">Base do onboarding</p>
+              <h2>Bóris Onboarding</h2>
+              <p class="workspace-copy">
+                Espaço interno para orientar quem entra no time e encurtar a curva de contexto logo
+                nos primeiros dias.
+              </p>
+            </div>
+
+            <nav class="workspace-nav" aria-label="Navegação lateral">
+              <a href="#hub">Hub do onboarding</a>
+              <a href="#visao-geral">Visão geral</a>
+              <a href="#o-que-e">O que o Bóris é e não é</a>
+              <a href="#momento-atual">Momento atual</a>
+              <a href="#equipe-hoje">Equipe hoje</a>
+              <a href="#dia-a-dia">O que fazemos no dia a dia</a>
+              <a href="#modulos">Módulos por área</a>
+              <a href="#primeiros-passos">Primeiros 7 dias</a>
+              <a href="#papeis">Quem faz o quê</a>
+              <a href="#ferramentas">Onde o trabalho acontece</a>
+              <a href="#rituais">Rituais e combinados</a>
+              <a href="#faq">FAQ operacional</a>
+            </nav>
+
+            <div class="workspace-section workspace-section-soft">
+              <p class="workspace-label">Para quem entrar agora</p>
+              <ul class="workspace-bullets">
+                <li>entender rápido o que é o Bóris</li>
+                <li>ganhar contexto sem depender de repasse solto</li>
+                <li>começar a contribuir sem cair no escuro</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+        <div class="presentation">
+          <section class="panel hero-panel first-panel" id="hub" data-panel>
+            <div class="container hero-grid">
+              <div class="hero-copy">
+                <p class="section-label">Manual interno do Bóris</p>
+                <h2>
+                  Um app para ajudar quem entra no time a entender o que é o Bóris, onde estamos
+                  hoje e como começar a trabalhar sem cair no escuro.
+                </h2>
+                <p class="section-subtext">
+                  Este onboarding não é um manual técnico. Ele existe para contextualizar a operação
+                  do Bóris, mostrar como a equipe realmente trabalha hoje e deixar claro o que uma
+                  pessoa nova precisa fazer desde o começo.
+                </p>
+                <div class="summary-actions">
+                  <a class="button primary" href="#primeiros-passos">Ver primeiros 7 dias</a>
+                  <a class="button secondary" href="#papeis">Entender papéis</a>
+                </div>
+              </div>
+
+              <aside class="hero-side">
+                <div class="hero-card hero-card-image">
+                  <img
+                    src="./assets/onboarding-hero.png"
+                    alt="Bóris recebendo uma nova pessoa no onboarding interno"
+                    class="hero-scene"
+                  />
+                  <div class="hero-card-copy hero-card-overlay">
+                    <p class="workspace-label">Leitura rápida</p>
+                    <h3>O que alguém novo precisa entender primeiro</h3>
+                    <ul class="project-list compact">
+                      <li>o que é o Bóris e para quem ele existe</li>
+                      <li>em que momento a operação está hoje</li>
+                      <li>como a equipe se organiza na prática</li>
+                      <li>o que se espera da primeira semana</li>
+                    </ul>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="visao-geral" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Visão geral</p>
+                <h2>Antes de cobrar velocidade, o onboarding precisa explicar a operação real do Bóris.</h2>
+                <p class="section-subtext">
+                  Quem entra no time precisa entender o negócio, o momento atual e a dinâmica da
+                  equipe. Sem isso, qualquer tarefa vira execução sem contexto.
+                </p>
+              </div>
+
+              <div class="project-grid">
+                <article class="hub-card">
+                  <span class="hub-kicker">01</span>
+                  <h3>Entender o que é o Bóris</h3>
+                  <p>O Bóris existe para transformar conversa dispersa em leitura útil, contexto e decisão melhor dentro do universo de WhatsApp.</p>
+                </article>
+                <article class="hub-card">
+                  <span class="hub-kicker">02</span>
+                  <h3>Entender o momento atual</h3>
+                  <p>O time ainda está consolidando operação, produto, comercial e conteúdo ao mesmo tempo. Isso exige clareza, prioridade e jogo de cintura.</p>
+                </article>
+                <article class="hub-card">
+                  <span class="hub-kicker">03</span>
+                  <h3>Entender como começar</h3>
+                  <p>A primeira semana precisa mostrar com quem falar, o que observar, onde o trabalho acontece e qual entrega pequena faz sentido.</p>
+                </article>
+              </div>
+
+              <div class="intro-dashboard">
+                <article class="dashboard-card dashboard-card-highlight">
+                  <div class="dashboard-card-head">
+                    <span class="dashboard-label">O que é o Bóris</span>
+                    <span class="dashboard-pill">Semana 1</span>
+                  </div>
+                  <h3>Leitura rápida do negócio</h3>
+                  <p>
+                    O Bóris é um negócio focado em leitura operacional de grupos e comunidades no
+                    WhatsApp. O valor central é menos ruído e mais clareza.
+                  </p>
+                </article>
+                <article class="dashboard-card">
+                  <div class="dashboard-card-head">
+                    <span class="dashboard-label">Momento atual</span>
+                    <span class="dashboard-pill dashboard-pill-soft">Leve e constante</span>
+                  </div>
+                  <h3>Empresa em construção real</h3>
+                  <p>
+                    O time ainda está amadurecendo produto, oferta, narrativa e processos. Quem
+                    entra ajuda a organizar e acelerar, não só a cumprir demanda.
+                  </p>
+                </article>
+                <article class="dashboard-card">
+                  <div class="dashboard-card-head">
+                    <span class="dashboard-label">Primeiro passo</span>
+                    <span class="dashboard-pill dashboard-pill-soft">Autonomia guiada</span>
+                  </div>
+                  <h3>Ganhar contexto e contribuir cedo</h3>
+                  <p>
+                    A expectativa inicial é simples: entender o contexto, observar o funcionamento
+                    do time e fazer uma entrega pequena com boa orientação.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="modulos" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Módulos por área</p>
+                <h2>Um jeito simples de entender o Bóris pelo trabalho real da equipe.</h2>
+                <p class="section-subtext">
+                  Em vez de explicar ferramenta ou processo técnico, estes módulos mostram como cada
+                  frente do Bóris funciona hoje e o que uma pessoa nova precisa entender para entrar
+                  bem em cada contexto.
+                </p>
+              </div>
+
+              <div class="module-grid">
+                <article class="module-card">
+                  <div class="module-head">
+                    <span class="module-badge">Produto</span>
+                    <span class="module-state">Base pronta</span>
+                  </div>
+                  <h3>O que o Bóris entrega e por que isso importa</h3>
+                  <p>
+                    Explica a tese do Bóris, o problema que ele resolve e como o time enxerga valor
+                    de produto hoje.
+                  </p>
+                  <ul class="project-list compact">
+                    <li>o que é o Bóris</li>
+                    <li>que dor ele resolve</li>
+                    <li>como o produto é pensado</li>
+                  </ul>
+                  <a class="module-link" href="./modules/produto.html">Abrir módulo</a>
+                </article>
+
+                <article class="module-card">
+                  <div class="module-head">
+                    <span class="module-badge">Comercial</span>
+                    <span class="module-state">Pronto para detalhar</span>
+                  </div>
+                  <h3>Como o Bóris vende hoje</h3>
+                  <p>
+                    Explica a lógica comercial atual, o tipo de venda que funciona e o que nunca
+                    pode se perder nas conversas com leads.
+                  </p>
+                  <ul class="project-list compact">
+                    <li>funil real</li>
+                    <li>follow-up de verdade</li>
+                    <li>próximo passo claro</li>
+                  </ul>
+                  <a class="module-link" href="./modules/comercial.html">Abrir módulo</a>
+                </article>
+
+                <article class="module-card">
+                  <div class="module-head">
+                    <span class="module-badge">Conteúdo</span>
+                    <span class="module-state">Pronto para detalhar</span>
+                  </div>
+                  <h3>Como o Bóris se comunica</h3>
+                  <p>
+                    Explica o tom do Bóris, de onde nasce a narrativa e como transformar dor real
+                    em conteúdo e material útil.
+                  </p>
+                  <ul class="project-list compact">
+                    <li>tom e linguagem</li>
+                    <li>dor real antes de hype</li>
+                    <li>consistência de marca</li>
+                  </ul>
+                  <a class="module-link" href="./modules/conteudo.html">Abrir módulo</a>
+                </article>
+
+                <article class="module-card">
+                  <div class="module-head">
+                    <span class="module-badge">Operações</span>
+                    <span class="module-state">Base pronta</span>
+                  </div>
+                  <h3>Como a equipe funciona no dia a dia</h3>
+                  <p>
+                    Explica a rotina prática do time, os combinados, a forma de acompanhamento e o
+                    que ajuda o trabalho a continuar sem caos escondido.
+                  </p>
+                  <ul class="project-list compact">
+                    <li>rituais reais</li>
+                    <li>cadência e clareza</li>
+                    <li>continuidade de execução</li>
+                  </ul>
+                  <a class="module-link" href="./modules/operacoes.html">Abrir módulo</a>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="o-que-e" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">O que o Bóris é</p>
+                <h2>Quem entra no time precisa saber rápido o que o Bóris é, e também o que ele não é.</h2>
+                <p class="section-subtext">
+                  Essa distinção ajuda muito no começo. Sem ela, a pessoa nova corre o risco de
+                  ler o Bóris como “mais uma IA genérica” ou “mais uma automação”, o
+                  que distorce o trabalho desde a origem.
+                </p>
+              </div>
+
+              <div class="compare-grid">
+                <article class="compare-card compare-card-yes">
+                  <span class="hub-kicker">É</span>
+                  <h3>Leitura operacional sobre grupos e comunidades no WhatsApp</h3>
+                  <ul class="project-list">
+                    <li>transforma conversa em contexto</li>
+                    <li>reduz ruído e aumenta clareza</li>
+                    <li>apoia decisão, acompanhamento e continuidade</li>
+                    <li>ajuda operador humano a enxergar melhor</li>
+                  </ul>
+                </article>
+                <article class="compare-card compare-card-no">
+                  <span class="hub-kicker">Não é</span>
+                  <h3>Uma IA genérica ou automação pelo volume</h3>
+                  <ul class="project-list">
+                    <li>não é “conteúdo sobre IA” sem contexto</li>
+                    <li>não é robô para falar demais no grupo</li>
+                    <li>não é produto para encher dashboard sem utilidade</li>
+                    <li>não é substituto cego de moderador, CS ou operador</li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="dia-a-dia" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Dia a dia</p>
+                <h2>O que a equipe do Bóris faz todos os dias, na prática.</h2>
+                <p class="section-subtext">
+                  Este bloco existe para responder uma dúvida simples: “o que exatamente acontece
+                  aqui?”. Entrar no Bóris hoje significa conviver com produto, comercial, conteúdo
+                  e operação andando ao mesmo tempo.
+                </p>
+              </div>
+
+              <div class="daily-grid">
+                <article class="daily-card">
+                  <span class="hub-kicker">01</span>
+                  <h3>Interpretar o que está acontecendo</h3>
+                  <p>
+                    O time passa boa parte do tempo tentando transformar conversa, reunião, sinal de
+                    mercado e execução em leitura clara para decidir melhor.
+                  </p>
+                </article>
+                <article class="daily-card">
+                  <span class="hub-kicker">02</span>
+                  <h3>Melhorar produto e narrativa ao mesmo tempo</h3>
+                  <p>
+                    O Bóris ainda está amadurecendo produto e posicionamento juntos. Então é comum
+                    que uma mesma semana misture ajuste de tela, tese, oferta e material.
+                  </p>
+                </article>
+                <article class="daily-card">
+                  <span class="hub-kicker">03</span>
+                  <h3>Tocar comercial com leitura de contexto</h3>
+                  <p>
+                    Não é só responder lead. É entender timing, manter follow-up vivo, organizar
+                    oportunidades e fazer a conversa andar com próximo passo claro.
+                  </p>
+                </article>
+                <article class="daily-card">
+                  <span class="hub-kicker">04</span>
+                  <h3>Produzir conteúdo conectado à dor real</h3>
+                  <p>
+                    O conteúdo do Bóris nasce de problema concreto de operação, comunidade, suporte,
+                    retenção e WhatsApp. Não é produção vazia para “manter presença”.
+                  </p>
+                </article>
+                <article class="daily-card">
+                  <span class="hub-kicker">05</span>
+                  <h3>Organizar a operação para não perder contexto</h3>
+                  <p>
+                    Check-ins, registros, handoffs e decisões precisam sair da cabeça das pessoas e
+                    virar algo que o time consiga retomar depois.
+                  </p>
+                </article>
+                <article class="daily-card">
+                  <span class="hub-kicker">06</span>
+                  <h3>Executar sem parar de aprender</h3>
+                  <p>
+                    O ritmo do Bóris hoje é esse: fazer, observar, ajustar e subir aprendizados
+                    úteis para a próxima rodada.
+                  </p>
+                </article>
+              </div>
+
+              <div class="first-week-note">
+                <h3>Se alguém perguntar “qual é a rotina real do Bóris?”</h3>
+                <ul class="project-list">
+                  <li>entender melhor os problemas que o produto resolve</li>
+                  <li>fazer produto, comercial e conteúdo conversarem entre si</li>
+                  <li>manter a operação menos improvisada e mais legível</li>
+                  <li>transformar reunião e execução em aprendizado reaproveitável</li>
+                  <li>seguir produzindo enquanto o sistema ainda está amadurecendo</li>
+                </ul>
+              </div>
+
+              <div class="compare-grid">
+                <article class="compare-card">
+                  <span class="hub-kicker">O que esperar</span>
+                  <ul class="project-list">
+                    <li>frentes andando em paralelo</li>
+                    <li>ajustes frequentes de direção e prioridade</li>
+                    <li>muita conexão entre produto, comercial e conteúdo</li>
+                    <li>contexto mudando com velocidade razoável</li>
+                  </ul>
+                </article>
+                <article class="compare-card">
+                  <span class="hub-kicker">O que não esperar</span>
+                  <ul class="project-list">
+                    <li>organograma rígido e operação engessada</li>
+                    <li>processo totalmente estável e fechado</li>
+                    <li>trabalho isolado de uma frente só</li>
+                    <li>entrada no time baseada apenas em tarefa sem contexto</li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="momento-atual" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Momento atual</p>
+                <h2>O Bóris está em fase de consolidação operacional, não em modo “empresa pronta”.</h2>
+                <p class="section-subtext">
+                  Isso é importante para quem entra: hoje o trabalho envolve construir, organizar e
+                  aprender ao mesmo tempo. Ainda tem muita coisa sendo ajustada enquanto a
+                  operação anda.
+                </p>
+              </div>
+
+              <div class="moment-grid">
+                <article class="moment-card">
+                  <span class="hub-kicker">Hoje</span>
+                  <h3>O Bóris já tem base pública e operação organizada</h3>
+                  <p>
+                    O link público oficial já está consolidado em `euboris.com.br`, e o space já
+                    está organizado em cinco frentes: produto, comercial, conteúdo, operações e
+                    suporte.
+                  </p>
+                </article>
+                <article class="moment-card">
+                  <span class="hub-kicker">Foco</span>
+                  <h3>Existe uma frente institucional/comercial relevante em andamento</h3>
+                  <p>
+                    A oportunidade com ENAP e ecossistema de inovação pública já está sendo tratada
+                    como frente real. Hoje ela mistura visibilidade, subvenção, networking e
+                    amadurecimento de caso de uso.
+                  </p>
+                </article>
+                <article class="moment-card">
+                  <span class="hub-kicker">Operação</span>
+                  <h3>Conteúdo e narrativa já estão em produção contínua</h3>
+                  <p>
+                    A linha editorial já está produzindo peças completas. Exemplos recentes falam de
+                    follow-up sem prioridade, promessa esquecida e pagamento sem contexto, sempre
+                    ancorados em dores reais da operação.
+                  </p>
+                </article>
+              </div>
+
+              <div class="first-week-note">
+                <h3>Se a pessoa nova perguntar “o que está acontecendo agora no Bóris?”</h3>
+                <ul class="project-list">
+                  <li>o negócio já tem presença pública consolidada e narrativa própria</li>
+                  <li>o time está organizando produto, comercial, conteúdo e operação ao mesmo tempo</li>
+                  <li>existe uma frente institucional relevante com ENAP em exploração</li>
+                  <li>a produção de conteúdo já roda com cadência e tese editorial claras</li>
+                  <li>o desafio do momento é ganhar mais consistência sem travar execução</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="equipe-hoje" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Equipe hoje</p>
+                <h2>Hoje, o Bóris ainda é um time bem enxuto.</h2>
+                <p class="section-subtext">
+                  Neste momento, a operação do Bóris ainda não tem um time grande montado. O centro
+                  do projeto hoje é o Mateus Rocha, que na prática segura quase tudo, com apoio
+                  próximo do Rodrigo Richter em ideias de gamificação e da Camila Meireles nas
+                  frentes de divulgação.
+                </p>
+              </div>
+
+              <div class="people-grid">
+                <article class="person-card person-card-highlight">
+                  <span class="hub-kicker">Hoje</span>
+                  <h3>Mateus Rocha</h3>
+                  <p>
+                    Hoje o Mateus faz praticamente tudo no Bóris: segura a visão do negócio, puxa
+                    produto, direção geral, prioridade entre frentes, articulação do projeto e as
+                    decisões mais importantes do dia a dia.
+                  </p>
+                </article>
+                <article class="person-card">
+                  <img
+                    src="./assets/team/rodrigo-richter.png"
+                    alt="Rodrigo Richter"
+                    class="team-photo"
+                  />
+                  <span class="hub-kicker">Colaboração próxima</span>
+                  <h3>Rodrigo Richter</h3>
+                  <p>
+                    Hoje o Rodrigo está ajudando o projeto com conversas, trocas de ideia e
+                    especialmente com pensamento de gamificação para aplicar no painel e no Bóris
+                    futuramente.
+                  </p>
+                </article>
+                <article class="person-card">
+                  <img
+                    src="./assets/team/camila-meireles.png"
+                    alt="Camila Meireles"
+                    class="team-photo"
+                  />
+                  <span class="hub-kicker">Colaboração próxima</span>
+                  <h3>Camila Meireles</h3>
+                  <p>
+                    A Camila está começando a ajudar o Bóris na parte de divulgação, especialmente
+                    com landing pages, ads e frentes de aquisição.
+                  </p>
+                </article>
+                <article class="person-card">
+                  <span class="hub-kicker">Leitura honesta</span>
+                  <h3>O time ainda está se formando</h3>
+                  <p>
+                    Isso importa para quem entra: muita coisa ainda depende de alinhamento direto,
+                    contexto bem passado e proximidade com quem está puxando o projeto.
+                  </p>
+                </article>
+              </div>
+
+              <div class="first-week-note">
+                <h3>Leitura honesta sobre a equipe hoje</h3>
+                <ul class="project-list">
+                  <li>o time efetivo ainda é enxuto</li>
+                  <li>Mateus Rocha hoje concentra praticamente tudo no Bóris</li>
+                  <li>Rodrigo aparece hoje como colaborador próximo em ideias de gamificação</li>
+                  <li>Camila está começando a ajudar nas frentes de divulgação, landing pages e ads</li>
+                  <li>quem entrar agora precisa esperar mais proximidade e menos estrutura rígida</li>
+                </ul>
+              </div>
+
+              <div class="contact-grid">
+                <article class="contact-card contact-card-highlight">
+                  <span class="hub-kicker">Quem procurar</span>
+                  <h3>Mateus Rocha</h3>
+                  <p>
+                    Faz sentido procurar o Mateus quando a dúvida envolve direção do Bóris, visão
+                    do negócio, prioridade entre frentes ou praticamente qualquer decisão mais
+                    importante do projeto neste momento.
+                  </p>
+                </article>
+                <article class="contact-card">
+                  <span class="hub-kicker">Quem procurar</span>
+                  <h3>Rodrigo Richter</h3>
+                  <p>
+                    Faz sentido procurar o Rodrigo quando a conversa estiver girando em torno de
+                    ideias, possibilidades e caminhos de gamificação para o painel e para o futuro
+                    do Bóris.
+                  </p>
+                  <p><strong>Contato:</strong> +55 11 99128-9263</p>
+                </article>
+                <article class="contact-card">
+                  <span class="hub-kicker">Quem procurar</span>
+                  <h3>Camila Meireles</h3>
+                  <p>
+                    Faz sentido procurar a Camila quando a conversa estiver ligada a divulgação,
+                    landing pages, ads e possibilidades de aquisição para o Bóris.
+                  </p>
+                  <p><strong>Contato:</strong> +55 61 9273-7514</p>
+                </article>
+                <article class="contact-card">
+                  <span class="hub-kicker">Como funciona agora</span>
+                  <h3>Muita coisa ainda passa por conversa direta</h3>
+                  <p>
+                    Como o time ainda está pequeno, é natural que dúvidas sobre produto, comercial,
+                    conteúdo e operação precisem de alinhamento mais próximo no começo.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="primeiros-passos" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Primeiros 7 dias</p>
+                <h2>A entrada ideal no time mistura contexto do negócio, observação da operação e uma entrega real pequena.</h2>
+                <p class="section-subtext">
+                  O objetivo não é jogar ferramenta e documento em cima da pessoa. É ajudá-la a
+                  entender o Bóris, o momento atual do time e a forma certa de começar a contribuir.
+                </p>
+              </div>
+
+              <figure class="section-visual">
+                <img
+                  src="./assets/onboarding-week.png"
+                  alt="Bóris guiando a trilha dos primeiros 7 dias da equipe"
+                  class="section-visual-image"
+                />
+              </figure>
+
+              <div class="timeline-grid">
+                <article class="timeline-card">
+                  <span class="timeline-day">Dia 1</span>
+                  <h3>Entender o negócio</h3>
+                  <ul class="project-list">
+                    <li>entender o que é o Bóris</li>
+                    <li>entender que problema ele resolve</li>
+                    <li>ver como o time explica isso hoje</li>
+                  </ul>
+                </article>
+                <article class="timeline-card">
+                  <span class="timeline-day">Dia 2</span>
+                  <h3>Entender a equipe</h3>
+                  <ul class="project-list">
+                    <li>entender quem puxa cada frente</li>
+                    <li>entender como as áreas se conectam</li>
+                    <li>saber com quem falar em cada contexto</li>
+                  </ul>
+                </article>
+                <article class="timeline-card">
+                  <span class="timeline-day">Dia 3 a 4</span>
+                  <h3>Ver a operação real</h3>
+                  <ul class="project-list">
+                    <li>ver o que realmente usamos hoje</li>
+                    <li>entender a cadência do time</li>
+                    <li>acompanhar exemplos reais de trabalho</li>
+                  </ul>
+                </article>
+                <article class="timeline-card">
+                  <span class="timeline-day">Dia 5 a 7</span>
+                  <h3>Primeira contribuição</h3>
+                  <ul class="project-list">
+                    <li>fazer uma entrega pequena com contexto</li>
+                    <li>receber revisão do time</li>
+                    <li>sair da semana com próximo passo claro</li>
+                  </ul>
+                </article>
+              </div>
+
+              <div class="first-week-note">
+                <h3>O que esperamos da pessoa nova logo no começo</h3>
+                <ul class="project-list">
+                  <li>entender o que é o Bóris sem depender de pitch decorado</li>
+                  <li>entender o momento atual da operação</li>
+                  <li>saber quem puxa cada frente</li>
+                  <li>observar como o time realmente trabalha</li>
+                  <li>fazer uma entrega pequena com boa orientação</li>
+                </ul>
+              </div>
+
+              <div class="contact-grid">
+                <article class="contact-card">
+                  <span class="hub-kicker">Conversa 1</span>
+                  <h3>Entender o negócio</h3>
+                  <p>
+                    A primeira boa conversa de onboarding é sobre o que o Bóris faz, para quem ele
+                    existe e por que isso importa agora.
+                  </p>
+                </article>
+                <article class="contact-card">
+                  <span class="hub-kicker">Conversa 2</span>
+                  <h3>Entender a frente onde a pessoa vai atuar</h3>
+                  <p>
+                    A segunda conversa deve explicar a área em que ela entra, como essa área se mede
+                    e o que o time considera bom trabalho ali.
+                  </p>
+                </article>
+                <article class="contact-card">
+                  <span class="hub-kicker">Conversa 3</span>
+                  <h3>Entender a primeira contribuição</h3>
+                  <p>
+                    Antes de entregar qualquer coisa, a pessoa precisa saber qual é a menor entrega
+                    útil que ajuda o time sem gerar retrabalho.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="papeis" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Quem faz o quê</p>
+                <h2>Quem entra no Bóris precisa entender pessoas e frentes, não organograma vazio.</h2>
+                <p class="section-subtext">
+                  Esta parte ainda está estruturada por função porque os nomes podem mudar, mas a
+                  lógica aqui é simples: mostrar como a equipe se divide e como o trabalho circula.
+                </p>
+              </div>
+
+              <figure class="section-visual">
+                <img
+                  src="./assets/onboarding-roles.png"
+                  alt="Bóris organizando as diferentes frentes de trabalho da equipe"
+                  class="section-visual-image"
+                />
+              </figure>
+
+              <div class="split-grid">
+                <article class="story-block">
+                  <h3>Direção e produto</h3>
+                  <p>Guarda a visão do Bóris, decide prioridade, valida narrativa e mantém a barra de qualidade.</p>
+                </article>
+                <article class="story-block">
+                  <h3>Comercial e relacionamento</h3>
+                  <p>Transforma interesse em conversa qualificada, organiza pipeline e evita oportunidade perdida.</p>
+                </article>
+                <article class="story-block">
+                  <h3>Conteúdo e marca</h3>
+                  <p>Converte dores reais em materiais, campanhas e mensagens com identidade consistente.</p>
+                </article>
+                <article class="story-block">
+                  <h3>Operações e suporte</h3>
+                  <p>Sustenta ritos, documentação, handoffs e continuidade entre combinado e entregue.</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="ferramentas" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Onde o trabalho acontece</p>
+                <h2>Quem entra no time precisa saber onde cada parte do trabalho do Bóris acontece.</h2>
+                <p class="section-subtext">
+                  Esta seção não existe para ensinar ferramenta em profundidade. Ela existe para
+                  mostrar o mapa prático do trabalho e onde cada coisa costuma acontecer no dia a dia.
+                </p>
+              </div>
+
+              <div class="project-grid">
+                <article class="hub-card">
+                  <span class="hub-kicker">A</span>
+                  <h3>Base interna do time</h3>
+                  <p>É onde o time organiza contexto, histórico, materiais internos e trabalho em andamento.</p>
+                </article>
+                <article class="hub-card">
+                  <span class="hub-kicker">B</span>
+                  <h3>Bóris Site</h3>
+                  <p>É a camada pública do Bóris, usada para narrativa institucional e comercial. Não é onde vive o onboarding interno.</p>
+                </article>
+                <article class="hub-card">
+                  <span class="hub-kicker">C</span>
+                  <h3>Bóris Painel</h3>
+                  <p>É a camada de produto autenticado. Quando alguém precisa ver o Bóris em operação real, é aqui que essa leitura tende a acontecer.</p>
+                </article>
+                <article class="hub-card">
+                  <span class="hub-kicker">D</span>
+                  <h3>Acervo Bóris</h3>
+                  <p>É onde ficam materiais compartilhados, referências, propostas, conteúdo e base viva da marca e da operação.</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="rituais" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">Rituais e combinados</p>
+                <h2>O onboarding só funciona quando mostra como a equipe trabalha de verdade.</h2>
+                <p class="section-subtext">
+                  O que faz alguém entrar bem no Bóris não é dominar ferramenta logo no primeiro
+                  dia. É entender o ritmo, o tipo de atualização e a forma como o time toma cuidado
+                  com clareza e continuidade.
+                </p>
+              </div>
+
+              <figure class="section-visual">
+                <img
+                  src="./assets/onboarding-rituals.png"
+                  alt="Bóris sustentando rituais e combinados da rotina da equipe"
+                  class="section-visual-image"
+                />
+              </figure>
+
+              <div class="conversation-grid">
+                <article class="conversation-card">
+                  <span class="conversation-step">01</span>
+                  <h3>Check-ins objetivos</h3>
+                  <p>Atualizações curtas, com progresso, bloqueio e próximo passo. O foco é clareza, não performance verbal.</p>
+                </article>
+                <article class="conversation-card">
+                  <span class="conversation-step">02</span>
+                  <h3>Contexto que não se perde</h3>
+                  <p>Quando algo passa a ser importante para a operação, isso precisa ficar acessível para o time, e não preso só em conversa.</p>
+                </article>
+                <article class="conversation-card">
+                  <span class="conversation-step">03</span>
+                  <h3>Contribuição real cedo</h3>
+                  <p>Quem entra no Bóris não precisa provar genialidade. Precisa ganhar contexto e começar a ajudar de forma concreta.</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel content-panel" id="faq" data-panel>
+            <div class="container section-stack">
+              <div class="section-intro">
+                <p class="section-label">FAQ operacional</p>
+                <h2>Perguntas que costumam travar contexto e autonomia no começo.</h2>
+                <p class="section-subtext">
+                  Este fechamento serve para responder as dúvidas que normalmente aparecem quando a
+                  pessoa já entendeu o panorama, mas ainda não sabe como se posicionar dentro dele.
+                </p>
+              </div>
+
+              <div class="faq-list">
+                <article class="faq-item">
+                  <h3>Por onde alguém novo deve começar?</h3>
+                  <p>Pelo problema que o Bóris resolve, pelo mapa do ecossistema e pelo entendimento de quem responde por cada frente.</p>
+                </article>
+                <article class="faq-item">
+                  <h3>Quando deve acontecer a primeira entrega?</h3>
+                  <p>Ainda na primeira semana, com escopo pequeno e revisão próxima, para acelerar autonomia sem jogar a pessoa no escuro.</p>
+                </article>
+                <article class="faq-item">
+                  <h3>Como isso evolui com o crescimento do time?</h3>
+                  <p>Plugando nomes reais, links oficiais, checklists por área e trilhas específicas sem precisar refazer a arquitetura.</p>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
