@@ -1,0 +1,36 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="40" fill="#111317"/>
+  <rect x="36" y="36" width="1128" height="558" rx="28" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+  <rect x="72" y="72" width="180" height="46" rx="23" fill="rgba(242,107,29,0.16)" stroke="rgba(242,107,29,0.26)"/>
+  <text x="104" y="101" fill="#F6B58A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="700" letter-spacing="2">MANUAL INTERNO</text>
+
+  <rect x="72" y="156" width="112" height="112" rx="32" fill="#F26B1D"/>
+  <circle cx="114" cy="198" r="12" fill="white"/>
+  <path d="M99 228C99 217.507 107.507 209 118 209H140C150.493 209 159 217.507 159 228C159 234.075 154.075 239 148 239H110C103.925 239 99 234.075 99 228Z" fill="white"/>
+
+  <text x="72" y="340" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="64" font-weight="700" letter-spacing="-1.8">
+    <tspan x="72" dy="0">Manual interno do Bóris</tspan>
+    <tspan x="72" dy="78">para visão geral, contexto</tspan>
+    <tspan x="72" dy="78">e direção do projeto.</tspan>
+  </text>
+
+  <text x="72" y="597" fill="#9AA3B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="500">
+    Missão, momento atual, responsáveis, frentes e próximos passos
+  </text>
+
+  <rect x="845" y="104" width="263" height="134" rx="24" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="881" y="150" fill="#F6B58A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" letter-spacing="1.8">NEGÓCIO</text>
+  <text x="881" y="190" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="34" font-weight="700">Leitura operacional</text>
+  <text x="881" y="224" fill="#B8C0CC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="500">Transformar conversa em</text>
+  <text x="881" y="250" fill="#B8C0CC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="500">contexto útil para decidir melhor.</text>
+
+  <rect x="845" y="262" width="263" height="134" rx="24" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="881" y="308" fill="#F6B58A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" letter-spacing="1.8">MOMENTO</text>
+  <text x="881" y="348" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="34" font-weight="700">Consolidação ativa</text>
+  <text x="881" y="382" fill="#B8C0CC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="500">Produto, narrativa, comercial</text>
+  <text x="881" y="408" fill="#B8C0CC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="500">e operação pedindo costura fina.</text>
+
+  <rect x="845" y="420" width="263" height="98" rx="24" fill="rgba(242,107,29,0.14)" stroke="rgba(242,107,29,0.22)"/>
+  <text x="881" y="465" fill="#F6B58A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" letter-spacing="1.8">FOCO</text>
+  <text x="881" y="505" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="34" font-weight="700">Clareza compartilhada</text>
+</svg>
