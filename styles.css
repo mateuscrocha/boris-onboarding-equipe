@@ -971,6 +971,7 @@ a {
 }
 
 .entry-card-highlight {
+  grid-column: span 2;
   background: #111317;
   color: #ffffff;
   border-color: rgba(17, 19, 23, 0.2);
@@ -1201,56 +1202,51 @@ a {
   order: 2;
 }
 
-.presentation > #valores-missao {
+.presentation > #o-que-e {
   order: 3;
 }
 
-.presentation > #visao-geral {
+.presentation > #por-que-existe {
   order: 4;
 }
 
-.presentation > #o-que-e {
+.presentation > #base-decisao {
   order: 5;
 }
 
-.presentation > #momento-atual {
+.presentation > #produto-hoje {
   order: 6;
 }
 
-.presentation > #primeiros-passos {
+.presentation > #entregas {
   order: 7;
 }
 
-.presentation > #equipe-hoje {
+.presentation > #frentes {
   order: 8;
 }
 
-.presentation > #papeis {
+.presentation > #organizacao {
   order: 9;
 }
 
-.presentation > #roadmap {
+.presentation > #equipe-hoje {
   order: 10;
 }
 
-.presentation > #modulos {
+.presentation > #expectativas {
   order: 11;
 }
 
-.presentation > #dia-a-dia {
+.presentation > #visao-futuro {
   order: 12;
 }
 
-.presentation > #ferramentas {
-  order: 13;
-}
-
-.presentation > #rituais {
-  order: 14;
-}
-
-.presentation > #faq {
-  order: 15;
+@media (min-width: 1100px) {
+  .hero-signals {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: none;
+  }
 }
 
 .first-week-note ul {
